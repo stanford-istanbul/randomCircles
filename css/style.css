@@ -1,0 +1,10 @@
+#field
+{
+    height: 100%;
+}
+
+.ball
+{
+    position: absolute;
+    border-radius: 50%;
+}
