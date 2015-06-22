@@ -1,7 +1,5 @@
-$(document).ready(function() {
-    tuval = document.getElementById('field');
-    document.getElementById('field').onclick = randomCircles_v1;
-    tuval.add = function(element) {
-        tuval.appendChild(element.oval);
+function run() {
+    for (var i = 0; i < 10; i++) {
+        addRandomCircle();
     }
-});
+}
